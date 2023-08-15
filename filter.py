@@ -135,7 +135,7 @@ def dots(image):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: filter.py {image} {filter} {other commands}.")
+        print("Usage: filter.py {filter} {image} {other commands}.")
         exit()
 
     # get filter name & other commands for filter to use
