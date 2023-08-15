@@ -4,7 +4,7 @@ A program to cluster colors and
 replace them with a different kind of cluster.
 """
 from PIL import Image, ImageDraw  # From the 'pillow' extension
-from cluster import *
+from filter.cluster import *
 from random import randint, randrange
 
 from collections import OrderedDict

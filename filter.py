@@ -6,7 +6,7 @@ from wand.image import Image as wandImage
 from PIL import Image, ImageFilter, ImageEnhance, ImageOps
 
 import re
-from recluster import Recolor, Rehatch, Remap
+from filter.recluster import Recolor, Rehatch, Remap
 
 # other commands to feed to filters
 commands = []
